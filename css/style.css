@@ -1,0 +1,83 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    color: #FFF;
+    background: #171717;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.roulette {
+    width: 600px;
+    height: 200px;
+    background: hsla(0, 0%, 0%, 0.4);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.roulette__container {
+    width: 550px;
+    height: 100px;
+    background: hsla(0, 0%, 0%, 0.4);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.roulette__container .block {
+    position: relative;
+    min-width: fit-content;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.roulette__container .block .item {
+    width: 99px;
+    height: 100px;
+    background: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vh;
+    color: black;
+    user-select: none;
+    border-left: 1px solid grey;
+}
+
+.roulette .button {
+    width: 100px;
+    height: 40px;
+    background: rgb(0, 95, 0);
+    margin-top: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2vh;
+    user-select: none;
+    transition: ease-in-out 0.1s;
+}
+
+.roulette .disabled {
+    cursor: not-allowed;
+    background: grey;
+}
+
+.roulette .button:not(.disabled):hover {
+    transform: scale(1.05);
+    transition: ease-in-out 0.1s;
+}
