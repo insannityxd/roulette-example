@@ -7,5 +7,5 @@
 ## Exemplos:
 
 <p align="center">
-    <img width="640" height="360" src="https://imgur.com/a/2oFUkGJ">
+    <img width="640" height="360" src="https://cdn.discordapp.com/attachments/1003048563661623356/1087935956071493682/example.gif">
 </p>
