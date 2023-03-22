@@ -5,4 +5,7 @@
 - JQuery
 
 ## Exemplos:
-![Exemplo1](https://imgur.com/a/2oFUkGJ)
+
+<p align="center">
+    <img width="640" height="360" src="https://imgur.com/a/2oFUkGJ">
+</p>
